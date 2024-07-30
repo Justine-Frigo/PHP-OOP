@@ -1,0 +1,23 @@
+nav {
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  margin-bottom: 2%;
+}
+nav .button {
+  padding: 10px 15px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+nav .button.disabled {
+  background-color: #cccccc;
+  pointer-events: none;
+  color: #666666;
+}
+nav .button.disabled:hover {
+  cursor: not-allowed;
+}
+nav .button:hover {
+  background-color: #0056b3;
+}/*# sourceMappingURL=style.css.map */

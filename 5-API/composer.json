@@ -1,0 +1,24 @@
+{
+    "name": "justine/php-api",
+    "description": "A simple Restful API (resourcing some posts)",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "ext-pdo": "*",
+        "fakerphp/faker": "^1.23",
+        "symfony/http-foundation": "^7.1",
+        "firebase/php-jwt": "^6.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Justine-Frigo",
+            "email": "justine0912@gmail.com"
+        }
+    ]
+}
